@@ -1,0 +1,29 @@
+#header{
+    background-color: #1675B2 !important;
+    height: 65px;
+}
+#btn-tienda{
+    background-color: #ED3E95;
+}
+#main .carousel-inner img{
+    max-height: 90vh;
+    object-fit:cover;
+    
+}
+.carousel{
+	position: relative;
+}
+.carousel .overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.carousel .overlay .container,
+.carousel .overlay .row{
+	height: 100%;
+}
