@@ -1,6 +1,6 @@
 #header{
     background-color: #1675B2 !important;
-    height: 65px;
+    
 }
 #btn-tienda{
     background-color: red;
@@ -16,7 +16,7 @@
 .carousel .overlay{
 	position: absolute;
 	background-color: rgba(0,0,0,0.3);
-	color: blue;
+	color: white;
 	top: 0;
 	bottom: 0;
 	left: 0;
