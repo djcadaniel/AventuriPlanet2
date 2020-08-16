@@ -3,7 +3,7 @@
     height: 65px;
 }
 #btn-tienda{
-    background-color: #ED3E95;
+    background-color: red;
 }
 #main .carousel-inner img{
     max-height: 90vh;
@@ -16,7 +16,7 @@
 .carousel .overlay{
 	position: absolute;
 	background-color: rgba(0,0,0,0.3);
-	color: white;
+	color: blue;
 	top: 0;
 	bottom: 0;
 	left: 0;
