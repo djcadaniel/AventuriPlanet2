@@ -1,10 +1,13 @@
 #header{
-    background-color: #1675B2 !important;
-    
+	background-color: #1675B2 !important;
+	
 }
+
 #btn-tienda{
     background-color: red;
 }
+
+
 #main .carousel-inner img{
     max-height: 90vh;
     object-fit:cover;
@@ -26,4 +29,22 @@
 .carousel .overlay .container,
 .carousel .overlay .row{
 	height: 100%;
+}
+
+@media (max-width:520px){
+	#header{
+		padding: 10px 0 5px 0px;
+	}
+	.menu-cel{
+		width:100%;
+		background-color:gray;
+	}
+	#cel-nav{
+		margin:0 auto;
+		background-color:rgba(0,0,0,0.7);	
+	}
+	#linea-menu{
+		padding: 10px 0;
+		border-bottom:1px solid gray;
+	}
 }
