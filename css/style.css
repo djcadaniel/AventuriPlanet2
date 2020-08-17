@@ -30,6 +30,27 @@
 .carousel .overlay .row{
 	height: 100%;
 }
+/*menu temas*/
+.temas{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	background-color: blue;
+	padding:50px;
+}
+.temas img{
+	max-height: 25vh;
+    object-fit:cover;
+}
+
+
+/*--/menu temas---*/
+
+footer{
+	background-color:green;
+}
+
 
 @media (max-width:520px){
 	#header{
