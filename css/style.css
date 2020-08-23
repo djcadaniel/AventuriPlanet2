@@ -50,7 +50,15 @@
 footer{
 	background-color:green;
 }
-
+.fo1{
+	background-color:red;
+}
+.fo2{
+	background-color:yellow;
+}
+.fo3{
+	background-color:white;
+}
 
 @media (max-width:520px){
 	#header{
