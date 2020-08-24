@@ -102,7 +102,7 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-9 col-12 bg-primary text-center p-5">
+            <div class="col-sm-9 col-12 text-center p-sm-5 p-3">
                 <h1>AVENTURI PLANET</h1>
                 <br>
                 <div class="text-justify">
@@ -112,7 +112,10 @@
                 </div>
                 <br>
                 <div class="video">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/5rMORILl_Hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <!-- 4:3 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5rMORILl_Hc"></iframe>
+                  </div>
                 </div>
             </div>
             <div class="col-12 col-sm-3 bg-danger">
@@ -120,14 +123,36 @@
             </div>
         </div>
         <div class="temas ">
-            <img src="img/fondos/hawaii.jpg" alt="">
-            <img src="img/fondos/hawaii.jpg" alt="">
-            <img src="img/fondos/hawaii.jpg" alt="">          
+          <div class="card" style="width: 18rem;">
+            <img src="img/fondos/hawaii.jpg" class="img-responsive img-rounded" alt="..." >
+            
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/fondos/hawaii.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/fondos/hawaii.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>        
         </div>
     </div>
     <div class="container-fluid">
       <div class="row p-3">
-        <div class="col-sm-9 col-12 bg-primary">
+        <div class="col-sm-9 col-12">
           <div class="row">
             <div class="col-6 bg-danger">
 
@@ -139,11 +164,11 @@
           </div>
           <div class="row">
             <div class="col-6 ">
-
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ex enim obcaecati et culpa natus magni temporibus eos nulla quaerat velit quae deserunt delectus voluptas alias repellendus, sit suscipit assumenda.</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ex enim obcaecati et culpa natus magni temporibus eos nulla quaerat velit quae deserunt delectus voluptas alias repellendus, sit suscipit assumenda.</p>
             </div>
             <div class="col-6 bg-danger">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ex enim obcaecati et culpa natus magni temporibus eos nulla quaerat velit quae deserunt delectus voluptas alias repellendus, sit suscipit assumenda.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ex enim obcaecati et culpa natus magni temporibus eos nulla quaerat velit quae deserunt delectus voluptas alias repellendus, sit suscipit assumenda.</p>
+              
             </div>
           </div>
         </div>
@@ -185,10 +210,10 @@
 <footer>
   <div class="container-fluid">
     <div class="row p-3">
-      <div class="col-sm-3 fo1 align-self-center">
+      <div class="col-12 col-sm-3 fo1 align-self-center-sm text-center pt-3">
         <img src="img/fondos/platzi-logo.png" alt="" height="70px">
       </div>
-      <div class="col-sm-5 fo2 text-center ">
+      <div class="col-12 col-sm-5 fo2 text-center pt-3">
         <img src="img/logos/face.png" alt="" height="70px">
         <img src="img/logos/face.png" alt="" height="70px">
         <img src="img/logos/face.png" alt="" height="70px">
@@ -196,7 +221,7 @@
         <h3>AVENTURI PLANET</h3>
         <p>Copyright @ 2019. Todos los derechos reservados</p>
       </div>
-      <div class="col-sm-4 fo3">
+      <div class="col-12 col-sm-4 fo3 text-center">
         <h3>SUSCRIBITE</h3>
         <p>Para recibir noticias increíbles</p>
       </div>
