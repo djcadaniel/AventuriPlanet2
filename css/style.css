@@ -87,4 +87,10 @@ footer{
 		padding:0;
 		margin: 0;
 	}
+	.temas{
+		padding:35px 0;
+	}
+	.temas .yo{
+		width: 26rem !important;
+	}
 }
